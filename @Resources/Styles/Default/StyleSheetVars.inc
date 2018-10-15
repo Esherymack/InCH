@@ -4,39 +4,37 @@
 
 ;Colors
 
-BackgroundColor=31,31,31,255
+BackgroundColor=0,5,21,255
 
-PrimaryColor=255,161,0,255
-PrimaryColorDark=110,69,0,255
+PrimaryColor=240,235,223,255
+PrimaryColorDark=240,235,223,200
 
-SecondaryColor=16,131,255
-SecondaryColorDark=9,76,147,255
+SecondaryColor=109,144,156,255
+SecondaryColorDark=109,144,156,100
 
 ; Maximally contrasting colors
 
 CC1=#PrimaryColor#
-; Green
-CC2=128,255,0,255
-; Red
-CC3=255,0,0,255
-; Dark Blue
-CC4=56,0,232,255
-; Light blue
-CC5=14,215,222,255
+CC2=70,84,120,255
+CC3=#SecondaryColor#
+; Orange
+CC4=234,136,89,255
+; Low-Alpha Orange
+CC5=234,136,89,200
 
-LowColor=0,255,0,255
-MidColor=255,255,0,255
-HighColor=255,0,0,255
+LowColor=#PrimaryColor#
+MidColor=#SecondaryColor#
+HighColor=#CC4#
 
 ;Fonts
 
-MonoFont=Anonymous Pro
-PrimaryFont=Helvetica
-SecondaryFont=Furore
+MonoFont=Raleway Thin
+PrimaryFont=Raleway
+SecondaryFont=Raleway
 
 ; Misc
 
-SkinWidth=290
+SkinWidth=300
 SkinPadding=5
 GaugeRotationAngle=240
 HistogramHeight=100
@@ -45,7 +43,7 @@ LineGraphWidth=.1
 							;Skin-specific
 
 ;Clock
-Locale=ru-RU
+Locale=en-EN
   ; Default to ISO-8601 HH:MM:SS
 ClockFormat=%T
 MinClockFormat=%H.%M.%S
@@ -162,7 +160,7 @@ AudioColor=#PrimaryColor#
 AudioColorBkg=#PrimaryColorDark#
 
 ;Visualizer
-VisualizerBkg=0,0,0,255
+VisualizerBkg=0,5,21,255
 VisualizerPort=Output
 VisualizerAltPort=Input
 
