@@ -4,26 +4,24 @@
 
 ;Colors
 
-BackgroundColor=0,5,21,255
+BackgroundColor=22,22,24,255
 
-PrimaryColor=240,235,223,255
-PrimaryColorDark=240,235,223,200
+PrimaryColor=89,89,91,255
+PrimaryColorDark=69,69,71,255
 
-SecondaryColor=109,144,156,255
-SecondaryColorDark=109,144,156,100
+SecondaryColor=69,69,71,255
+SecondaryColorDark=56,56,58,255
 
 ; Maximally contrasting colors
 
-CC1=#PrimaryColor#
-CC2=70,84,120,255
-CC3=#SecondaryColor#
-; Orange
-CC4=234,136,89,255
-; Low-Alpha Orange
-CC5=234,136,89,200
+CC1=#SecondaryColor#
+CC2=#SecondaryColorDark#
+CC3=170,179,182,255
+CC4=230,241,245,255
+CC5=#PrimaryColor#
 
 LowColor=#PrimaryColor#
-MidColor=#SecondaryColor#
+MidColor=#CC3#
 HighColor=#CC4#
 
 ;Fonts
@@ -65,8 +63,8 @@ UptimeColor=#CC3#
 ;PrimaryGauge
 CPUColor=#PrimaryColor#
 RAMColor=#SecondaryColor#
-PrimaryGaugeColor=155,155,155,255
-PrimaryGaugeFillColor=0,0,0,255
+PrimaryGaugeColor=22,22,24,255
+PrimaryGaugeFillColor=22,22,24,255
 PrimaryTickColor=255,255,255,255
 
 ; Bad things will probably happen if the gauge isn't perfectly square
@@ -130,8 +128,8 @@ BatteryLifetimeFormat=%H:%M
 CoreNominalColor=#LowColor#
 CoreMediumColor=#MidColor#
 CoreHighColor=#HighColor#
-CoreTempGaugeFillColor=0,0,0,255
-CoreTempGaugeColor=155,155,155,255
+CoreTempGaugeFillColor=22,22,24,255
+CoreTempGaugeColor=33,28,25,255
 CoreTempGaugeWidth=68
 CoreTempGaugeHeight=#CoreTempGaugeWidth#
 CoreTempGaugePadding=2
@@ -160,7 +158,7 @@ AudioColor=#PrimaryColor#
 AudioColorBkg=#PrimaryColorDark#
 
 ;Visualizer
-VisualizerBkg=0,5,21,255
+VisualizerBkg=22,22,24,255
 VisualizerPort=Output
 VisualizerAltPort=Input
 
